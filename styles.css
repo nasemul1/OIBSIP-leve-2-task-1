@@ -18,7 +18,7 @@ html, body{
 }
 
 .container{
-    width: 500px;
+    width: 450px;
     height: 600px;
     background-color: #161A20;
     border: none;
@@ -61,8 +61,8 @@ html, body{
     align-items: center;
 }
 .button-container>div>button{
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     border: none;
     border-radius: 50%;
     background-color: #303136;
@@ -79,19 +79,31 @@ html, body{
 #operator:hover{
     background-color: rgb(56, 156, 255);
 }
+
 #eq{
     width: 75%;
-    height: 60px;
+    height: 65px;
     border: none;
     border-radius: 90px;
-    background-color: #1FD6FF;
+    background-color: #4CAF50;
     color: #161A20;
 }
 #eq:hover{
-    background-color: #43dcff;
+    background-color: #72d876;
+}
+
+#fn{
+    background-color: #51555c;
+}
+#fn:hover{
+    background-color: #6d7074;
 }
 @media only screen and (max-width: 550px){
     .container{
         width: 90%;
+    }
+    .button-container>div>button{
+        width: 60px;
+        height: 60px;
     }
 }
