@@ -52,9 +52,7 @@ html, body{
     height: 500px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-}
-.equal{
-    grid-column: span 2;
+    padding-bottom: 15px;
 }
 .button-container>div{
     display: flex;
@@ -66,39 +64,39 @@ html, body{
     height: 65px;
     border: none;
     border-radius: 50%;
-    background-color: #303136;
+    background-color: #484C4E;
     color: aliceblue;
     font-size: 16px;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 .button-container>div>button:hover{
-    background-color: #484950;
+    background-color: rgb(89, 90, 97);
 }
 #operator{
-    background-color: dodgerblue;
+    background-color: #DEDAFB;
+    color: #161A20;
 }
 #operator:hover{
-    background-color: rgb(56, 156, 255);
+    background-color: #b6b1da;
 }
 
 #eq{
-    width: 75%;
-    height: 65px;
-    border: none;
     border-radius: 90px;
-    background-color: #4CAF50;
-    color: #161A20;
+    background-color: #E7628D;
+    color: aliceblue;
 }
 #eq:hover{
-    background-color: #72d876;
+    background-color: #f592b1;
+    color: #161A20;
 }
 
 #fn{
-    background-color: #51555c;
+    background-color: #FFEBDA;
+    color: #161A20;
 }
 #fn:hover{
-    background-color: #6d7074;
+    background-color: #ffdec1;
 }
 @media only screen and (max-width: 550px){
     .container{

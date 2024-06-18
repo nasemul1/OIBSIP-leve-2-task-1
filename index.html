@@ -9,12 +9,16 @@
 <body>
     <div class="container">
         <div class="display-container">
-            <input id="monitor" type="text" name="display" class="display1" readonly>
+            <input id="monitor" type="text" name="display" class="display1">
         </div>
         <div class="button-container">
             <div><button id="fn" onclick="clearAll()">AC</button></div>
             <div><button id="fn" onclick="clearOne()">DE</button></div>
-            <div><button id="fn" onclick="handleClick('.')">.</button></div>
+            <div><button id="fn" onclick="preview()">PREV</button></div>
+            <div><button id="operator" onclick="squareRootFn()">√</button></div>
+            <div><button id="operator" onclick="squareFn()">x<sup>2</sup></button></div>
+            <div><button id="operator" onclick="handleClick('br-1')">(</button></div>
+            <div><button id="operator" onclick="handleClick('br-2')">)</button></div>
             <div><button id="operator" onclick="handleClick('/')">/</button></div>
             <div><button onclick="handleClick('7')">7</button></div>
             <div><button onclick="handleClick('8')">8</button></div>
@@ -30,6 +34,7 @@
             <div><button id="operator" onclick="handleClick('+')">+</button></div>
             <div><button onclick="handleClick('00')">00</button></div>
             <div><button onclick="handleClick('0')">0</button></div>
+            <div><button onclick="handleClick('.')">.</button></div>
             <div class="equal"><button id="eq" onclick="calculateFn()">=</button></div>
         </div>
     </div>
